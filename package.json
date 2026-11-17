@@ -1,0 +1,13 @@
+{
+  "name": "blog-auto-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "주제 하나로 황금 키워드 · SEO 구조 · 블로그 본문을 만드는 4단계 웹툴 (Gemini + Naver 키워드 지표)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check api/generate.js && node --check api/naver-keywords.js",
+    "dev": "npx serve ."
+  }
+}
